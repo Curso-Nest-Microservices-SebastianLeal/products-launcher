@@ -1,23 +1,29 @@
 version: '3.9'
 
 services:
+  #=============
   # NATS Server
+  #=============
   nats-server:
     image: nats:latest
     ports:
       - 8222:8222
-  # Client Gateway
+      #=============
+      # Client Gateway
+      #=============
   client-gateway:
     build: ./client-gateway
     ports:
-      - ${CLIENT_GATEWAY_PORT}:${CLIENT_GATEWAY_PORT}
+      - ${CLIENT_GATEWAY_PORT}:3000
     volumes:
       - ./client-gateway/src:/usr/src/app/src
     command: npm run start:dev
     environment:
       - PORT=3000
       - NATS_SERVERS=nats://nats-server:4222,nats://nats-server:4223
-  # Products MS
+      #=============
+      # Products MS
+      #=============
   products-ms:
     build: ./products-ms
     volumes:
@@ -27,7 +33,9 @@ services:
       - PORT=3001
       - NATS_SERVERS=nats://nats-server:4222,nats://nats-server:4223
       - DATABASE_URL=file:./dev.db
-    # Orders MS
+      #=============
+      # Orders MS
+      #=============
   orders-ms:
     depends_on:
       - orders-db
@@ -39,7 +47,9 @@ services:
       - PORT=3002
       - DATABASE_URL=postgresql://postgres:root@orders-db:5432/ordersdb?schema=public
       - NATS_SERVERS=nats://nats-server:4222,nats://nats-server:4223
-    # Orders DB
+      #=============
+      # Orders DB
+      #=============
   orders-db:
     container_name: orders_database
     image: postgres:17
@@ -52,3 +62,21 @@ services:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=root
       - POSTGRES_DB=ordersdb
+  #=============
+  #Payments MS
+  #=============
+  payments-ms:
+    container_name: payments-ms
+    build: ./payments-ms #Con esto hace la busqueda al docker-file
+    volumes:
+      - ./payments-ms/src:/usr/src/app/src
+    command: npm run start:dev
+    ports:
+      - ${PAYMENTS_MS_PORT}:${PAYMENTS_MS_PORT}
+    environment:
+      - PORT=${PAYMENTS_MS_PORT}
+      - NATS_SERVERS=nats://nats-server:4222,nats://nats-server:4223
+      - STRIPE_SECRET=${STRIPE_SECRET}
+      - STRIPE_SUCCESS_URL=${STRIPE_SUCCESS_URL}
+      - STRIPE_CANCEL_URL=${STRIPE_CANCEL_URL}
+      - STRIPE_ENDPOINT_SECRET=${STRIPE_ENDPOINT_SECRET}
