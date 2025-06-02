@@ -13,3 +13,6 @@
 [submodule "auth-ms"]
 	path = auth-ms
 	url = https://github.com/Curso-Nest-Microservices-SebastianLeal/auth-ms.git
+[submodule "orders-microservice"]
+	path = orders-microservice
+	url = https://github.com/P4rseInt/orders-microservice.git
