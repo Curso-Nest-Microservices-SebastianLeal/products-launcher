@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="442848fa-d1a9-48eb-a649-9401c46e1895" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/orders-microservice" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env.template" beforeDir="false" afterPath="$PROJECT_DIR$/.env.template" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitmodules" beforeDir="false" afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-ms" beforeDir="false" afterPath="$PROJECT_DIR$/auth-ms" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-ms/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/auth-ms/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-ms/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/auth-ms/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-ms/src/app.controller.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-ms/src/app.controller.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-ms/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/auth-ms/src/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-ms/src/app.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-ms/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/auth-ms/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-ms/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/auth-ms/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-gateway" beforeDir="false" afterPath="$PROJECT_DIR$/client-gateway" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-gateway/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/client-gateway/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-gateway/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client-gateway/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-gateway/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client-gateway/src/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-gateway/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client-gateway/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-gateway/src/orders/orders.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client-gateway/src/orders/orders.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-gateway/src/orders/orders.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client-gateway/src/orders/orders.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-gateway/src/redis/redis.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client-gateway/src/redis/redis.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-gateway/src/redis/redis.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client-gateway/src/redis/redis.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders-microservice/.env.template" beforeDir="false" afterPath="$PROJECT_DIR$/orders-microservice/.env.template" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders-microservice/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/orders-microservice/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders-microservice/prisma/migrations/20240229182630_init/migration.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders-microservice/prisma/migrations/20240302145346_order_item/migration.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders-microservice/prisma/migrations/20240308161438_stripde_pay/migration.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders-microservice/prisma/schema.prisma" beforeDir="false" afterPath="$PROJECT_DIR$/orders-microservice/prisma/schema.prisma" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders-ms" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payments-ms" beforeDir="false" afterPath="$PROJECT_DIR$/payments-ms" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payments-ms/dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/payments-ms/dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payments-ms/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/payments-ms/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payments-ms/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/payments-ms/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products-ms" beforeDir="false" afterPath="$PROJECT_DIR$/products-ms" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products-ms/prisma/dev.db" beforeDir="false" afterPath="$PROJECT_DIR$/products-ms/prisma/dev.db" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/auth-ms" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2x9vUKdy3G9Ow9OyP289U6QSWET" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Users\\leals\\Desktop\\Cursos\\Microservicios Nest.js\\03-products-launcher\\client-gateway\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-WS-251.25410.117" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="442848fa-d1a9-48eb-a649-9401c46e1895" name="Changes" comment="" />
+      <created>1747363117801</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1747363117801</updated>
+      <workItem from="1747363118905" duration="669000" />
+      <workItem from="1747406839913" duration="119000" />
+      <workItem from="1748830174444" duration="63000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
