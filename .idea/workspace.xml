@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="442848fa-d1a9-48eb-a649-9401c46e1895" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/client-gateway/cloudbuild.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orders-ms/cloudbuild.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payments-ms/cloudbuild.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/products-ms/cloudbuild.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-ms" beforeDir="false" afterPath="$PROJECT_DIR$/auth-ms" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client-gateway" beforeDir="false" afterPath="$PROJECT_DIR$/client-gateway" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orders-microservice" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders-ms" beforeDir="false" afterPath="$PROJECT_DIR$/orders-ms" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payments-ms" beforeDir="false" afterPath="$PROJECT_DIR$/payments-ms" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/products-ms" beforeDir="false" afterPath="$PROJECT_DIR$/products-ms" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,7 +23,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/client-gateway" />
   </component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
@@ -25,6 +33,9 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2x9vUKdy3G9Ow9OyP289U6QSWET" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -32,11 +43,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "git-widget-placeholder": "cloud-build",
     "ignore.virus.scanning.warn.message": "true",
     "javascript.preferred.runtime.type.id": "node",
-    "last_opened_file_path": "C:/Cursos/products-launcher",
+    "last_opened_file_path": "C:/Cursos/products-launcher/products-ms",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -48,13 +61,17 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Cursos\products-launcher\products-ms" />
+      <recent name="C:\Cursos\products-launcher\payments-ms" />
+      <recent name="C:\Cursos\products-launcher\orders-ms" />
+      <recent name="C:\Cursos\products-launcher\client-gateway" />
       <recent name="C:\Cursos\products-launcher" />
     </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-WS-251.25410.117" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-WS-253.31033.133" />
       </set>
     </attachedChunks>
   </component>
@@ -70,6 +87,7 @@
       <workItem from="1747406839913" duration="119000" />
       <workItem from="1748830174444" duration="63000" />
       <workItem from="1748830256614" duration="1257000" />
+      <workItem from="1786925110714" duration="690000" />
     </task>
     <servers />
   </component>
