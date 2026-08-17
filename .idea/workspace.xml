@@ -5,15 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="442848fa-d1a9-48eb-a649-9401c46e1895" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/client-gateway/cloudbuild.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orders-ms/cloudbuild.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payments-ms/cloudbuild.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/products-ms/cloudbuild.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env.template" beforeDir="false" afterPath="$PROJECT_DIR$/.env.template" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auth-ms" beforeDir="false" afterPath="$PROJECT_DIR$/auth-ms" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client-gateway" beforeDir="false" afterPath="$PROJECT_DIR$/client-gateway" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/orders-ms" beforeDir="false" afterPath="$PROJECT_DIR$/orders-ms" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders-ms/.env.template" beforeDir="false" afterPath="$PROJECT_DIR$/orders-ms/.env.template" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders-ms/cloudbuild.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/orders-ms/cloudbuild.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders-ms/cloudbuild.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/payments-ms" beforeDir="false" afterPath="$PROJECT_DIR$/payments-ms" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/products-ms" beforeDir="false" afterPath="$PROJECT_DIR$/products-ms" afterDir="false" />
     </list>
@@ -23,7 +22,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/client-gateway" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/orders-ms" />
   </component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
@@ -55,7 +54,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2025.3.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "ts.external.directory.path": "C:\\Cursos\\products-launcher\\products-ms\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -87,7 +86,7 @@
       <workItem from="1747406839913" duration="119000" />
       <workItem from="1748830174444" duration="63000" />
       <workItem from="1748830256614" duration="1257000" />
-      <workItem from="1786925110714" duration="690000" />
+      <workItem from="1786925110714" duration="1982000" />
     </task>
     <servers />
   </component>
